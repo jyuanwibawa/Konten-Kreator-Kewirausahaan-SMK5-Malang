@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <header class="hero">
+        <div class="hero-video" aria-hidden="true">
+            <iframe id="heroVideo"
+                src="https://www.youtube.com/embed/wpqTB52__ns?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=wpqTB52__ns&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1&fs=0&start=0&end=17&enablejsapi=1"
+                title="Background Video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <a href="#projects" class="scroll-down" aria-label="Scroll to projects">
+            <span>↓</span>
+        </a>
+    </header>
+
+    <main>
+        <section id="projects" class="project-showcase">
+            <div class="showcase-header">
+                <h2>Project Showcase</h2>
+                <p>Temukan berbagai hasil karya capstone project dalam berbagai format yang menarik dan informatif</p>
+            </div>
+
+            <nav class="filter-nav" aria-label="Filter kategori">
+                <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">Semua</button>
+                <button class="filter-btn" type="button" data-filter="ebook" aria-pressed="false">📖 E-Book</button>
+                <button class="filter-btn" type="button" data-filter="infografis" aria-pressed="false">📊
+                    Infografis</button>
+                <button class="filter-btn" type="button" data-filter="video" aria-pressed="false">📹 Video</button>
+                <button class="filter-btn" type="button" data-filter="kuis" aria-pressed="false">❓ Kuis</button>
+                <button class="filter-btn" type="button" data-filter="ppt" aria-pressed="false">🖥️ PPT</button>
+            </nav>
+
+            <h3 class="section-title all-subtitle" aria-live="polite" style="display:none">Semua Project</h3>
+
+            <h3 class="section-title category-subtitle" data-category="ebook" style="display:none">📖 E-Books</h3>
+            <div class="project-grid">
+                <div class="project-card" data-category="ebook">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Buku dan earphone">
+                        <span class="card-tag">Data Science</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Panduan Lengkap Machine Learning</h3>
+                        <p>E-book komprehensif tentang dasar-dasar machine learning dan penerapannya dalam berbagai
+                            industri.</p>
+                        <span class="card-meta">120 halaman</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ebook">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Buku dan earphone">
+                        <span class="card-tag">Marketing</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Strategi Digital Marketing Modern</h3>
+                        <p>Pelajari strategi pemasaran digital terkini untuk meningkatkan brand awareness dan konversi.
+                        </p>
+                        <span class="card-meta">95 halaman</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Buku dan earphone">
+                        <span class="card-tag">Programming</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Web Development Best Practices</h3>
+                        <p>Kumpulan best practices dalam pengembangan web modern dengan studi kasus nyata.</p>
+                        <span class="card-meta">150 halaman</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-title category-subtitle" data-category="infografis" style="display:none">📊 Infografis
+            </h3>
+            <div class="project-grid">
+                <div class="project-card" data-category="infografis">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Infografis transformasi digital">
+                        <span class="card-tag">Bisnis</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Transformasi Digital 2025</h3>
+                        <p>Ringkasan visual tren adopsi teknologi dan dampaknya pada efisiensi operasional.</p>
+                        <span class="card-meta">1 halaman</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="infografis">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Infografis alur machine learning">
+                        <span class="card-tag">Data</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Alur Machine Learning</h3>
+                        <p>Gambaran proses end-to-end dari pengumpulan data hingga deployment model.</p>
+                        <span class="card-meta">1 halaman</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="infografis">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Infografis keamanan siber">
+                        <span class="card-tag">Security</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Checklist Keamanan Siber</h3>
+                        <p>Panduan singkat praktik terbaik untuk menjaga keamanan aplikasi dan data.</p>
+                        <span class="card-meta">1 halaman</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-title category-subtitle" data-category="video" style="display:none">📹 Video</h3>
+            <div class="project-grid">
+                <div class="project-card" data-category="video">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Thumbnail video demo aplikasi">
+                        <span class="card-tag">Demo</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Demo Aplikasi Manajemen Tugas</h3>
+                        <p>Penjelasan fitur utama dan arsitektur singkat aplikasi manajemen tugas.</p>
+                        <span class="card-meta">Durasi 3:45</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="video">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg"
+                            alt="Thumbnail video tutorial data viz">
+                        <span class="card-tag">Tutorial</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Visualisasi Data Interaktif</h3>
+                        <p>Cara membangun dashboard interaktif dengan komponen chart modern.</p>
+                        <span class="card-meta">Durasi 5:12</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-title category-subtitle" data-category="kuis" style="display:none">❓ Kuis</h3>
+            <div class="project-grid">
+                <div class="project-card" data-category="kuis">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Ilustrasi kuis fundamental web">
+                        <span class="card-tag">Web</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kuis Fundamental Web</h3>
+                        <p>Uji pengetahuan dasar HTML, CSS, dan JavaScript untuk pemula.</p>
+                        <span class="card-meta">10 soal</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="kuis">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Ilustrasi kuis data science">
+                        <span class="card-tag">Data</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kuis Dasar Data Science</h3>
+                        <p>Pertanyaan seputar statistik dasar dan alur kerja machine learning.</p>
+                        <span class="card-meta">12 soal</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-title category-subtitle" data-category="ppt" style="display:none">🖥️ PPT</h3>
+            <div class="project-grid">
+                <div class="project-card" data-category="ppt">
+                    <div class="card-content">
+                        <h3>Arsitektur Sistem & Deployment</h3>
+                        <p>Struktur komponen, alur request, dan strategi deployment berlapis.</p>
+                        <div class="embed-container">
+                            <iframe loading="lazy" allowfullscreen="allowfullscreen" allow="fullscreen"
+                                src="https://www.canva.com/design/DAG3h9iR7JY/C9hLRxCrW5UMNwuhQjjiqA/view?embed"></iframe>
+                        </div>
+                        <p class="card-meta"><a
+                                href="https://www.canva.com/design/DAG3h9iR7JY/C9hLRxCrW5UMNwuhQjjiqA/view?utm_content=DAG3h9iR7JY&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+                                target="_blank" rel="noopener noreferrer">Presentasi Hijau dan Ungu Tema Kewirausahaan
+                                Gaya Ilustratif</a> oleh Salwa Rahmadhani Angi</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ppt">
+                    <div class="card-image">
+                        <img src="https://i.ibb.co/3s9YkSj/card-placeholder.jpg" alt="Slide presentasi rencana proyek">
+                        <span class="card-tag">Manajemen</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Rencana Proyek & Roadmap</h3>
+                        <p>Timeline pengembangan, pembagian tugas, dan tonggak capaian utama.</p>
+                        <span class="card-meta">16 slide</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="team-header">
+                <a href="#" class="team-tagline">Our Team</a>
+                <p class="team-subtitle">Meet our Team</p>
+                <h2 class="team-title">Passionate. Proactive. Expert.</h2>
+                <p class="team-description">We lead with care — our core value — and a shared passion for connecting the
+                    world.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://i.ibb.co/N1Xw81B/image-27d500-1.jpg" alt="Ahmad Rizki" class="team-photo">
+                    <h3>Ahmad Rizki</h3>
+                    <p class="team-role">Co-Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://i.ibb.co/wJvjZcV/image-27d500-2.jpg" alt="Siti Nurhaliza" class="team-photo">
+                    <h3>Siti Nurhaliza</h3>
+                    <p class="team-role">Co-Founder & CTO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://i.ibb.co/68z0CjC/image-27d500-3.jpg" alt="Budi Santoso" class="team-photo">
+                    <h3>Budi Santoso</h3>
+                    <p class="team-role">Vice President</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Capstone Project</h4>
+                <p>Portfolio hasil capstone project yang menampilkan berbagai format konten pembelajaran digital.</p>
+            </div>
+
+            <div class="footer-col links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">E-Books</a></li>
+                    <li><a href="#">Infografis</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Kuis</a></li>
+                    <li><a href="#">Presentasi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col connect">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="GitHub">G</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                    <a href="#" class="social-icon" aria-label="Email">@</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Made with ❤️ for Capstone Project 2025
+        </div>
+    </footer>
+
+</body>
+
+</html>
